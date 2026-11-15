@@ -1,0 +1,15 @@
+Saved answer01.pdf
+Error: Could not store answer02.pdf
+Cause: Disk quota exceeded
+Chained stack trace:
+SubmissionStorageException: Could not store answer02.pdf
+  at Storage.save(StorageDemo.java:25)
+  at SubmissionService.submit(StorageDemo.java:36)
+  at StorageDemo.main(StorageDemo.java:44)
+Caused by: java.io.IOException: Disk quota exceeded
+  at Storage.save(StorageDemo.java:22)
+  ... 2 more
+Additional validation scenarios:
+late.pdf: Exam window has closed
+unregistered.pdf: Student is not registered
+large.pdf: Answer file exceeds 1000 KB

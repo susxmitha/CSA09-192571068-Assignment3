@@ -1,0 +1,5 @@
+Manual report generated: output\manual-report.txt
+Try-with-resources report generated: output\safe-report.txt
+Reports identical: true
+Injected failure logged: input\missing-store.txt
+Try-with-resources closes opened resources when failure occurs.

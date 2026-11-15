@@ -1,0 +1,6 @@
+Thread-pool benchmark for fault-tolerant result processing
+Expected injected failures: approximately 2% (missing and corrupt files)
+Pool=1, Files=10000, Success=9800, Failure=200, Time_ms=6528.966
+Pool=2, Files=10000, Success=9800, Failure=200, Time_ms=2097.258
+Pool=4, Files=10000, Success=9800, Failure=200, Time_ms=1059.885
+Pool=8, Files=10000, Success=9800, Failure=200, Time_ms=815.426
